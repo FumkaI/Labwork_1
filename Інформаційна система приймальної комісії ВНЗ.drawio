@@ -85,53 +85,23 @@
         <mxCell id="RIP-V-5AovfGl9KdVuni-24" value="Формування звітів" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="560" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RIP-V-5AovfGl9KdVuni-25" value="«include»" style="endArrow=openThin;html=1;rounded=0;dashed=1;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RIP-V-5AovfGl9KdVuni-3">
+        <mxCell id="RIP-V-5AovfGl9KdVuni-25" value="«include»" style="endArrow=openThin;html=1;rounded=0;dashed=1;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RIP-V-5AovfGl9KdVuni-3" target="RIP-V-5AovfGl9KdVuni-27">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="200" y="340" as="sourcePoint" />
             <mxPoint x="270" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RIP-V-5AovfGl9KdVuni-26" value="«include»" style="endArrow=openThin;html=1;rounded=0;dashed=1;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RIP-V-5AovfGl9KdVuni-3">
+        <mxCell id="RIP-V-5AovfGl9KdVuni-26" value="«include»" style="endArrow=openThin;html=1;rounded=0;dashed=1;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RIP-V-5AovfGl9KdVuni-3" target="RIP-V-5AovfGl9KdVuni-28">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="320" as="sourcePoint" />
             <mxPoint x="110" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RIP-V-5AovfGl9KdVuni-27" value="Внесення паролю" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="480" width="120" height="80" as="geometry" />
+          <mxGeometry x="255" y="560" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RIP-V-5AovfGl9KdVuni-28" value="Внесення логіну" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="480" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="RIP-V-5AovfGl9KdVuni-29" value="&lt;div style=&quot;&quot;&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Актори (Subjects)&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;:&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;text-align: center; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;Користувач системи&amp;nbsp;&lt;/span&gt;&lt;/span&gt;(успадковує всі можливості від актора &quot;Абітурієнт&quot;)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Абітурієнт&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot; class=&quot;whitespace-normal break-words&quot;&gt;Співробітник комісії&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot; class=&quot;whitespace-normal break-words&quot;&gt;Адміністратор (успадковує всі можливості від актора &quot;Співробітник комісії&quot;)&lt;/li&gt;&lt;/ol&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="30" y="840" width="240" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="RIP-V-5AovfGl9KdVuni-30" value="&lt;b&gt;Опис основних елементів діаграми:&lt;/b&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="295" y="700" width="236.5" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="RIP-V-5AovfGl9KdVuni-31" value="&lt;div style=&quot;&quot;&gt;&lt;strong&gt;Варіанти використання (Use cases)&lt;/strong&gt;:&lt;br&gt;&lt;ol&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Перегляд даних&lt;br&gt;&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Реєстрація в системі&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Внесення логіну&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Внесення паролю&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Подача документів&lt;br&gt;&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Внесення даних&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Управління балами&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Розподіл за спеціальностями&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Перевірка документів&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Формування звітів&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Керування системою&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="293.5" y="840" width="240" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="RIP-V-5AovfGl9KdVuni-32" value="&lt;div style=&quot;&quot;&gt;&lt;strong&gt;Зв&#39;язки&lt;/strong&gt;:&lt;br&gt;&lt;ol&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Комунікативний зв&#39;язок - показує взаємодію суб&#39;єкта з системою&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Включення «include» - показує обов&#39;язкові варіанти використання&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Розширення «extend» - показує необов&#39;язкові варіанти використання&lt;/li&gt;&lt;li class=&quot;whitespace-normal break-words&quot;&gt;Успадкування - показує ієрархію акторів&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="560" y="840" width="240" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="RIP-V-5AovfGl9KdVuni-33" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="RIP-V-5AovfGl9KdVuni-30">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="150" y="840" as="sourcePoint" />
-            <mxPoint x="200" y="790" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RIP-V-5AovfGl9KdVuni-34" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RIP-V-5AovfGl9KdVuni-31" target="RIP-V-5AovfGl9KdVuni-30">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="850" as="sourcePoint" />
-            <mxPoint x="410" y="800" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RIP-V-5AovfGl9KdVuni-35" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RIP-V-5AovfGl9KdVuni-32" target="RIP-V-5AovfGl9KdVuni-30">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="510" y="820" as="sourcePoint" />
-            <mxPoint x="423" y="810" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="15" y="560" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RIP-V-5AovfGl9KdVuni-38" value="" style="endArrow=classic;html=1;rounded=0;curved=0;endFill=0;jumpSize=6;strokeWidth=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="RIP-V-5AovfGl9KdVuni-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -143,21 +113,30 @@
           <mxGeometry x="180" y="10" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RIP-V-5AovfGl9KdVuni-39" value="Перегляд даних" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="230" width="120" height="80" as="geometry" />
+          <mxGeometry x="70" y="770" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RIP-V-5AovfGl9KdVuni-41" value="Подача документів" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="228" width="120" height="80" as="geometry" />
+          <mxGeometry x="200" y="770" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RIP-V-5AovfGl9KdVuni-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="RIP-V-5AovfGl9KdVuni-41">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="220" y="180" as="sourcePoint" />
+            <mxPoint x="195" y="310" as="sourcePoint" />
             <mxPoint x="290" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RIP-V-5AovfGl9KdVuni-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="RIP-V-5AovfGl9KdVuni-39">
+        <mxCell id="RIP-V-5AovfGl9KdVuni-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="RIP-V-5AovfGl9KdVuni-39" source="RIP-V-5AovfGl9KdVuni-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="180" as="sourcePoint" />
+            <mxPoint x="190" y="310" as="sourcePoint" />
             <mxPoint x="220" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DyqyoEHbniJYUl4Q9Y1--3" value="Заповнення електронної форми" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="920" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DyqyoEHbniJYUl4Q9Y1--4" value="«include»" style="endArrow=openThin;html=1;rounded=0;dashed=1;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RIP-V-5AovfGl9KdVuni-41" target="DyqyoEHbniJYUl4Q9Y1--3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="274" y="850" as="sourcePoint" />
+            <mxPoint x="290" y="980" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
